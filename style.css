@@ -1,0 +1,24 @@
+/* Global & mixed values */
+.header,
+.landing,
+.footer {
+    background-color: #1f2937;
+}
+
+.header,
+.header-links,
+.landing,
+.image-row,
+.quotation,
+.cta,
+.footer {
+    display: flex;
+}
+
+.logo-name {
+    font-size: 24px;
+    color: white
+}
+.header-links {
+    font-size: 18px;
+}
