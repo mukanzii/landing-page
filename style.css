@@ -52,7 +52,7 @@ body {
 .header-image {
     flex: 1;
     background-color: #6d747d;
-    padding: 30px 0px 30px 60px;
+    padding: 60px 0px 60px 0px;
 }
 
 .button-1 {
