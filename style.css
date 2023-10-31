@@ -13,6 +13,7 @@ body {
 .header,
 .header-links,
 .landing,
+h2,
 .image-row,
 .quotation,
 .cta,
@@ -21,13 +22,38 @@ body {
 }
 
 .header {
-    margin: 10px 50px 10px 50px;
+    padding: 10px 200px 10px 200px;
 }
 
 .logo-name {
     flex: 2;
     font-size: 24px;
     color: white
+}
+
+h2 {
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+    color: #1f2937;
+}
+
+.image-row {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.placeholder {
+    border-color: #3b82f6;
+    border-width: 5px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.subtext {
+    align-content: center;
 }
 
 .header-links {
@@ -39,24 +65,70 @@ body {
 }
 
 .landing {
-    margin: 10px 50px 10px 50px;
-    align-items: center;
-    justify-content: center;
+    padding: 10px 200px 10px 200px;
 }
 
 .header-info {
-    flex: 1;
+    flex: 2;
     color: white;
+    padding-right: 10px;
 }
 
 .header-image {
     flex: 1;
     background-color: #6d747d;
-    padding: 60px 0px 60px 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px 60px 90px;
 }
 
 .button-1 {
     background-color: #3b82f6;
     color: white;
     border-radius: 5px;
+    border-color: #3b82f6;
+    padding: 5px 10px 5px 10px;
+}
+
+.quotation {
+    color: #232d3b;
+    background-color: #e5e7eb;
+    align-content: space-between;
+    justify-content: center;
+    padding: 10px 200px 10px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 14px;
+    font-style: bold;
+}
+
+.cta {
+    color: white;
+    background-color: #3b82f6;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 200px 30px 200px;
+    padding: 10px 70px 10px 70px;
+    border-radius: 10px;
+}
+
+.button-2 {
+    margin-left: 20px;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+}
+
+.footer {
+    color: white;
+    justify-content: center;
 }
